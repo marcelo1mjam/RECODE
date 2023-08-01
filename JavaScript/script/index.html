@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js" type="text/javascript" defer></script>
+    <script>
+        function funcao1(){
+            document.write('Inclusão de script no head')
+        }
+    </script>
+    
+</head>
+<body>
+    <h1>Formas de inclusão de script</h1>    
+        <ul>   
+            <li>
+                <h2>Elemento</h2>                    
+                        <input type="button" value="Botão no elemento" onclick="document.write('Inclusão de script impresso pelo elemento direto na tag input')">
+                    <br>
+            </li>
+            <li>
+                <h2>Head</h2>
+                    <button type="button" onclick='funcao1()'>Clique aqui</button>
+                    <br>
+            </li>
+            <li>
+                <h2>Header</h2>      
+                    <script>
+                        document.write('Inclusão de script no header')
+                    </script>
+                    <br>
+            </li>
+            <li>
+                <h2>Arquivo externo</h2>
+                    <button type="button" onclick='funcao2()'>Clique aqui</button>
+                    <br>
+            </li>
+        </ul>
+    
+</body>
+</html>
