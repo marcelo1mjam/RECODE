@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <script type="text/javascript" src="./cadastro_agencia.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>CADASTROS E CONSULTAS DE DESTINOS</h1>
+    </header>
+    <main>
+
+        <form action="">
+
+            <label for="Cidade">Cidade:</label>
+            <input type="text" id="Cidade">
+
+            <label for="Periodo">Dias:</label>
+            <input type="text" id="Periodo">
+
+            <label for="Data">Data de Início:</label>
+            <input type="text" id="Data">
+
+            
+            <br><br>
+            <button type="button" onclick="cadastrarDestino()">Cadastrar Destino</button>
+
+        </form>
+
+            <br>
+            <button type="button" onclick="consultarDestino()">Consultar Destino</button>
+
+            <pre id="resultado"></pre>
+
+    </main>
+    <footer></footer>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <script type="text/javascript" src="./cadastro_agencia.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>CADASTROS E CONSULTAS DE CLIENTES</h1>
+    </header>
+    <main>
+
+        <form action="">
+
+            <label for="Nome">Nome:</label>
+            <input type="text" id="Nome">
+
+            <label for="Idade">Idade:</label>
+            <input type="text" id="Idade">
+
+            <label for="CPF">CPF:</label>
+            <input type="text" id="CPF">
+
+            <label for="Endereco">Endereço:</label>
+            <input type="text" id="Endereco">
+            <br><br>
+            <button type="button" onclick="cadastrarCliente()">Cadastrar Cliente</button>
+
+        </form>
+
+            <br>
+            <button type="button" onclick="consultarCliente()">Consultar Cliente</button>
+
+            <pre id="resultado"></pre>
+
+    </main>
+    <footer></footer>
+</body>
+</html>
