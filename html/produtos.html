@@ -3,24 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Produtos - Full Stack Eletro</title>
 </head>
 <body>
-    <table width="100%">
-        <tr>
-            <td><a href="./index.html">Página inicial</a></td>
-            <td><a href="./produtos.html">Produtos</a></td>
-            <td><a href="./lojas.html">Lojas</a></td>
-            <td><a href="./contato.html">Contato</a></td>
-        </tr>
-    </table>
-    <h2>Produtos</h2>       
-        <h4>Formas de pagamentos</h4>
-    <hr>
-        <img width="25%" height="25%" src="./imagens/formas DePagamento.jpg" alt="Formas de pagamento">
-    <table border="0" width="100%" cellpadding="">
-        <tr>
-            <td rowspan="5" width="20%" valign="top">
+    <header>
+        <nav class="table-header">
+            <a href="./index.html">Página inicial</a>
+            <a href="./produtos.html">Produtos</a>
+            <a href="./lojas.html">Lojas</a>
+            <a href="./contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Produtos</h2>    
+        <div class="flex">
+        <section class="categorias">
                 <h3>Categorias</h3>
                 <ul>
                     <li>Geladeiras</li>
@@ -28,61 +26,72 @@
                     <li>Micro-ondas</li>
                     <li>Lavadoura de roupas</li>
                     <li>Lava louças</li>
-                </ul>
-            </td>
-            <tr>
-            <td>
-                <img width="40%" src="./imagens/geladeiraFrostFree.webp" alt="">
+                </ul>            
+        </section>
+        <section class="produtos">
+        <div class="flex">
+            <div class="box-produto">            
+                <img class="produtos" src="./imagens/geladeiraFrostFree.webp" alt="" width="120px">
                 <br>
-                <p>Geladeira Frost Free Brastemp Side Inverse 540 litros</p>
-                <hr>
-                <p><strike>R$ 6.389,00</strike></p>
-                <p>R$ 5.019,00</p>
-            </td>
-            <td>
-                <img width="40%" src="./imagens/geladeiraConsul.webp" alt="">
+                <p class="descricao">Geladeira Frost Free Brastemp 540 litros</p>  
+                <hr>              
+                <p class="descricao"><strike>R$ 6.389,00</strike></p>
+                <p class="preco">R$ 5.019,00</p>                
+            </div>
+            <div class="box-produto">
+                <img class="produtos"  src="./imagens/geladeiraConsul.webp" alt="" width="120px">
                 <br>
-                <p>Geladeira Frost Free Consul 375 litros</p>
-                <hr>
-                <p><strike>R$ 3.839,00</strike></p>
-                <p>R$ 2.611,00</p>
-            </td>
-            <td>
-                <img width="40%" src="./imagens/fogaoEletrolux.webp" alt="">
+                <p class="descricao">Geladeira Frost Free Consul 375 litros</p> 
+                <hr>               
+                <p class="descricao"><strike>R$ 3.839,00</strike></p>
+                <p class="preco">R$ 2.611,00</p>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="box-produto">
+                <img class="produtos" src="./imagens/fogaoBrastemp.webp" alt="" width="120px">
                 <br>
-                <p>Fogão 5 Bocas Eletrolux Prata</p>
-                <hr>
-                <p><strike>R$ 3.789,00</strike></p>
-                <p>R$ 3.099,00</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img width="40%" src="./imagens/fogaoEletrolux.webp" alt="">
+                <p class="descricao">Fogão 5 Bocas Brastemp Branco</p>     
+                <hr>           
+                <p class="descricao"><strike>R$ 3.599,00</strike></p>
+                <p class="preco">R$ 2.999,00</p>                
+            </div>              
+            <div class="box-produto">           
+                <img class="produtos" src="./imagens/fogaoEletrolux.webp" alt="" width="120px">    
+                <br>            
+                <p class="descricao">Fogão 5 Bocas Eletrolux Prata</p> 
+                <hr>               
+                <p class="descricao"><strike>R$ 3.789,00</strike></p>
+                <p class="preco">R$ 3.099,00</p>
+            </div>
+        </div> 
+        <div class="flex">         
+            <div class="box-produto">
+                <img class="produtos"  src="./imagens/lavadouraDeRoupas.webp" alt="" width="120px">
                 <br>
-                <p>Fogão 5 Bocas Brastemp Preto</p>
-                <hr>
-                <p><strike>R$ 3.899,00</strike></p>
-                <p>R$ 2.377,26</p>
-            </td>
-            <td>
-                <img width="40%" src="./imagens/microondas.webp" alt="">
+                <p class="descricao" >Lavadoura de Roupas 12kg Eletrolux</p>    
+                <hr>            
+                <p class="descricao"><strike>R$ 2.999,00</strike></p>
+                <p class="preco">R$ 1.999,00</p>
+            </div>           
+            <div class="box-produto">
+                <img class="produtos"src="./imagens/LavaLoucas.jpeg" alt="" width="120px">
                 <br>
-                <p>Lavadoura de Roupas 12kg Eletrolux</p>
-                <hr>
-                <p><strike>R$ 2.999,00</strike></p>
-                <p>R$ 1.999,00</p>
-            </td>
-            <td>
-                <img width="40%" src="./imagens/LavaLoucas.jpeg" alt="">
-                <br>
-                <p>Lava Louças Bratemp Cinza</p>
-                <hr>
-                <p><strike>R$ 3.999,00</strike></p>
-                <p>R$ 1.899,00</p>
-            </td>
-        </tr>
-        </tr>
-    </table>
+                <p class="descricao">Lava Louças Bratemp Cinza</p>    
+                <hr>            
+                <p class="descricao"><strike>R$ 3.999,00</strike></p>
+                <p class="preco">R$ 1.899,00</p>
+            </div> 
+        </div>              
+        </section>   
+    </div>         
+    </main>      
+    <footer>
+        <hr>
+        <h4>Formas de pagamentos</h4>
+    
+        <img class="img-header" src="./imagens/formas DePagamento.jpg" alt="Formas de pagamento">
+        
+    </footer>
 </body>
 </html>
