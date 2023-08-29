@@ -3,40 +3,240 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>DESTINO</title>
 </head>
 <body>
+    <div class="container-fluid bg-light">
     <header>
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./destino.html">Destinos</a>
-            <a href="./promocoes.html">Promoções</a>
-            <a href="./contato.html">Contato</a>
-        </nav>
-        <h1>AGÊNCIA VIAGEM DOS SONHOS</h1>
+        <div class="container-fluid">                
+                <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" arial-controls="navbarNav" arial-expanded="false" arial-label="Alterna navegação">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarNav">
+                        <ul class="navbar-nav">                                
+                            <li class="nav-item active">
+                                <a class="nav-link" href="./index.html">Home</a>
+                            </li>                               
+                            <li class="nav-item">
+                                <a class="nav-link" href="./destino.html">Destinos</a>
+                            </li>                               
+                            <li class="nav-item">
+                                <a class="nav-link" href="./promocoes.html">Promoções</a>
+                            </li>                               
+                            <li class="nav-item active">
+                                <a class="nav-link" href="./contato.html">Contato</a>
+                            </li>    
+                        </ul>
+                    </div>
+                </nav>
+                <div class="container-fluid bg-light menu"><h1>AGÊNCIA VIAGEM DOS SONHOS</h1></div>           
+        </div>
     </header>
     <main>
-        <h2>É o momento de descobrir uma nova aventura</h2>
-        <h2>Top destinos mais buscados hoje no Brasil</h2>
+        <div class="jumbotron">
+        <h2 class="menu">É o momento de descobrir uma nova aventura</h2>
+        <div class="jumbotron container">
+        <div class="card mb-3">
+            <img src="./img/lencoes-maranhenses.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lenções Maranhenses - Maranhão</h5>
+              <p class="card-text">A 250 km da capital São Luís, Barreirinhas é a porta de entrada para o sensacional Parque Nacional dos Lençóis Maranhenses, com quilômetros de dunas branquinhas e lagoas de águas azuladas. Se der, reserve uns dias para ficar também em Atins, povoado que é point de kitesurfe e tem ganhado pousadas e restaurantes de charme. E, para mergulhar na paisagem sem ninguém à vista, pense em fazer as travessias de três a cinco dias a pé. Pernoitar nos povoados isolados dentro do parque nacional é uma experiência inesquecível. </p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+            <br>
+            <div class="jumboton">
+            <div class="card mb-3">
+                <img src="./img/serra-cipo.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Serra do Cipó – Minas Gerais</h5>
+                  <p class="card-text">Refúgio de ecoturismo pertinho de Belo Horizonte, a serra é protegida por um parque nacional de 34 mil hectares que abrange nascentes, cânions, cachoeiras e riachos e é habitat de lobos-guarás e tamanduás-bandeira. A estrela do parque é a Cachoeira Grande, com 60 metros de extensão e 10 de altura e bons poços para banho, mas há muitas outras pela região, algumas dentro de propriedades particulares. Dá para fazer cavalgada até a Cachoeira da Farofa, escalada e rapel no Morro da Pedreira, tirolesa no Poço do Rio Cipó e trekkings como a Trilha do Travessão.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                <br>
+                <div class="card mb-3">
+                    <img src="./img/turismo-de-aventura-serra-da-capivara.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Serra da Capivara – Piauí</h5>
+                      <p class="card-text">No interior do Piauí, próximo da cidade de São Raimundo Nonato, o Parque Nacional da Serra da Capivara guarda uma coleção inigualável de sítios arqueológicos. Espalhadas por paredões de rochas sedimentares de arenito, há milhares de pinturas rupestres que retratam o cotidiano de pessoas pré-históricas, com cenas de danças, rituais, sexo e caça. As atrações estão agrupadas em três circuitos entre belas paisagens naturais para ver a pé e de carro. No Museu da Natureza, dentro do parque, você pode ver descobertas como um crânio de 10 mil anos.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+        </div>
+        <br>
+        <h2 class="menu">Top destinos mais buscados hoje no Brasil</h2>
         <div>
             <div>
                 <h3>Rio de janeiro</h3>
+                <div>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="./img/praia-rio.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">De Copacabana ao Leblon: as praias mais famosas do Rio de Janeiro</h5>
+                              <p class="card-text">Se tem uma coisa no Rio de Janeiro que não se compara a nada no mundo são as praias. A cidade guarda uma dezena delas, das mais vazias e menos conhecidas às mais famosas e bastante frequentadas. Mas há uma coisa que todas têm em comum: são belas à sua maneira e contribuem com as paisagens maravilhosas da cidade.</p>
+                            </div>
+                            <div class="card-footer">
+                              <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="./img/pao-de-acucar.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Pão de Açúcar: para um panorama inigualável da cidade</h5>
+                              <p class="card-text">Um marco do Rio de Janeiro que atrai turistas do mundo. O Pão de Açúcar é um complexo de morros que fica situado no bairro da Urca, abrigando tesouros naturais que são o Morro do Pão de Açúcar e o Morro da Urca. A atração não só é uma das mais visitadas na cidade como também do país e garante lá do alto um view espetacular. </p>
+                            </div>
+                            <div class="card-footer">
+                              <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="./img/cristo.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Cristo Redentor: uma das 7 Maravilhas do Mundo Moderno</h5>
+                              <p class="card-text">No topo do morro do Corcovado, a mais de 700 m acima do nível do mar. É ali que fica um dos símbolos mais importantes não só do Rio de Janeiro, mas também de todo o Brasil: o Cristo Redentor. É quase impossível desassociar a imagem desse ícone, inaugurado em 1931, da Cidade Maravilhosa. Em estilo art déco, a estátua foi quase toda construída no Brasil, exceto as partes da cabeça e das mãos, que foram feitas na França.</p>
+                            </div>
+                            <div class="card-footer">
+                              <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
             </div>
+            <br>
             <div>
                 <h3>Gramado</h3>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./img/rua-coberta.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Andar na Rua Coberta, uma das principais ruas de Gramado</h5>
+                          <p class="card-text">Um dos maiores pontos de interesse de Gramado. Chamada originalmente de rua Madre Verônica, a Rua Coberta está localizada no coração da cidade e na frente do Palácio dos Festivais, onde ocorre o Festival de Cinema de Gramado, e próximo da Igreja São Pedro. A rua ganhou uma cobertura (por isso o nome “Rua Coberta”) e decoração com várias plantas pendentes. Aqui e nas suas redondezas existem vários restaurantes e lojinhas, e os eventos acontecendo na rua são frequentes! É um lugar para ir várias vezes durante a viagem, seja para tomar um chocolate quente como para ver o movimento.
+
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./img/lago-negro.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Lago Negro</h5>
+                          <p class="card-text">O Lago Negro é um lago artificial em Gramado, que fica cercado por árvores e arbustos de hortênsias. No lugar você pode alugar um pedalinho e aproveitar para fazer um passeio tranquilo. É uma boa opção de passeio para quem procura um programa simples e romântico. No final de novembro/dezembro, ápice da florada das hortênsias, o visual do lago fica ainda mais lindo, cercado por milhares de flores com tons entre o azul e roxo!</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./img/mini-mundo.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Mini Mundo</h5>
+                          <p class="card-text">O Mini Mundo é um parque a céu aberto que tem réplicas de construções do mundo 24 vezes menores do que as construções originais. O parque começou como uma distração e hoje é um dos lugares mais visitados da cidade, com diversos cenários curiosos do nosso cotidiano. Por lá você encontrará uma réplica da Usina do Gasômetro (Porto Alegre), o Neuschwanstein Castle (Alemanha), Museu do Ipiranga (São Paulo), Aeroporto de Bariloche (Argentina) e muito mais!</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
             </div>
+            <br>
             <div>
                 <h3>Foz do Iguaçu</h3>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./img/cataratas.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Cataratas do Iguaçu
+                        </h5>
+                          <p class="card-text">As Cataratas do Iguaçu é uma daquelas atrações capazes de deixar qualquer um sem fôlego. Principal atração de Foz do Iguaçu, ela é considerada uma das 7 maravilhas naturais do mundo e fazem jus ao título! Formadas no Rio Iguaçu, elas ficam exatamente na fronteira com a Argentina e podem ser apreciadas em dois passeios distintos nos dois países.</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./img/parque-aves.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Parque das Aves</h5>
+                          <p class="card-text">O Parque das Aves é super jovem: foi criado em 1994 com a proposta de oferecer condições de preservação ambiental e reprodução de animais. Possui uma área de 17 hectares de mata nativa, onde é possível conhecer os viveiros de aves tropicais raras e coloridas como periquitos, araras, flamingos e tucanos. Conta ainda com borboletário, viveiro de beija-flores e o setor de répteis com cobras e jacarés.</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./img/macuco-safari.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Macuco Safári</h5>
+                          <p class="card-text">Dentro do próprio Parque Nacional do Iguaçu, o Macuco Safári recebe visitantes do mundo todo para mostrar a força da natureza por meio da água. Isso acontece em um passeio de barco nas quedas das Cataratas, combinando aventura e emoção. Fique tranquilo, pois a empresa responsável tem todas as certificações de segurança necessárias e sua experiência tem tudo para ser positiva.</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
             </div>
         </div>
     </main>
     <footer>
-        <h2>Curta nossas Redes Sociais</h2>
-            <nav>
-                <a href="https://www.youtube.com/">YOUTUBE</a>
-                <a href="https://www.facebook.com/">FACEBOOK</a>
-                <a href="https://www.instagram.com/">INSTAGRAM</a>
-            </nav>
+        <div id="contact-area">
+            <div class="container-fluid  bg-secondary">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="main-title menu"> Siga nossas redes sociais</h3>
+                    </div>
+                    <br><br>
+                    <div class="col-md-4 contact-box">
+                        <i class="bi bi-facebook"></i>
+                        <p><span class="contact-title"><a href="https://web.facebook.com/?_rdc=1&_rdr">Facebook</a></span></p>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <i class="bi bi-instagram"></i>
+                        <p><span class="contact-title"><a href="https://www.instagram.com/">Instagram</a></span></p>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <i class="bi bi-youtube"></i>
+                        <p><span class="contact-tile"><a href="https://www.youtube.com/">Youtube</a></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="copy-area">
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-md-12">
+                        <P>Desenvolvido por <a href=""> MJAM</a> &copy; 2023</P>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
-</body>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
 </html>

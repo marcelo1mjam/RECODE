@@ -58,12 +58,16 @@ li{
     color: red;
 }
 .produtos{
+    display: grid;
     background-color: white;
     margin: 35px;
     border-radius: 20px;
+    justify-content: space-evenly;
+    align-content: space-evenly;
 }
 .flex{
     display: flex;
     justify-items: center;
-    justify-content:space-around;
+    justify-content:space-evenly;
+    align-content: space-evenly;
 }

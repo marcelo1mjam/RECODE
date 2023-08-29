@@ -3,40 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>CONTATO</title>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./destino.html">Destinos</a>
-            <a href="./promocoes.html">Promoções</a>
-            <a href="./contato.html">Contato</a>
-        </nav>
-        <h1>AGÊNCIA VIAGEM DOS SONHOS</h1>
+        
+        <div class="container-fluid bg-light">                
+                <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" arial-controls="navbarNav" arial-expanded="false" arial-label="Alterna navegação">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarNav">
+                        <ul class="navbar-nav">                                
+                            <li class="nav-item active">
+                                <a class="nav-link" href="./index.html">Home</a>
+                            </li>                               
+                            <li class="nav-item">
+                                <a class="nav-link" href="./destino.html">Destinos</a>
+                            </li>                               
+                            <li class="nav-item">
+                                <a class="nav-link" href="./promocoes.html">Promoções</a>
+                            </li>                               
+                            <li class="nav-item active">
+                                <a class="nav-link" href="./contato.html">Contato</a>
+                            </li>    
+                        </ul>
+                    </div>
+                </nav>
+                <div class="container-fluid bg-light menu"><h1>AGÊNCIA VIAGEM DOS SONHOS</h1></div>           
+        </div>
     </header>
     <main>
-        <form action="">
+        <div class="bg-light">
+        <form action="" class="">
+            <div class="container">
+            <div class="form-group">
             <label for="nome">Nome:</label>
-            <input type="text">
+            <input type="text" id="nome" class="form-control" placeholder="Informe seu nome" required>
+            </div>
 
+            <div class="form-group">
             <label for="tel">Telefone:</label>
-            <input type="text">
+            <input type="text" id="tel" class="form-control" placeholder="Informe seu telefone" required>
+            </div>
 
+            <div class="form-group">
             <label for="email">Email:</label>
-            <input type="text">
+            <input type="text" id="email" class="form-control" placeholder="Informe seu email">
+            </div>
 
             <label for="mensagem">Mensagem:</label>
-            <input type="text">
+            <textarea id="mensagem" class="form-control" placeholder="Escreva sua mensagem"></textarea>
+        </div>
         </form>
+        <br>
+    </div>
     </main>
     <footer>
-        <h2>Curta nossas Redes Sociais</h2>
-            <nav>
-                <a href="https://www.youtube.com/">YOUTUBE</a>
-                <a href="https://www.facebook.com/">FACEBOOK</a>
-                <a href="https://www.instagram.com/">INSTAGRAM</a>
-            </nav>
+        <div id="contact-area">
+            <div class="container-fluid  bg-secondary">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="main-title menu"> Siga nossas redes sociais</h3>
+                    </div>
+                    <br><br>
+                    <div class="col-md-4 contact-box">
+                        <i class="bi bi-facebook"></i>
+                        <p><span class="contact-title"><a href="https://web.facebook.com/?_rdc=1&_rdr">Facebook</a></span></p>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <i class="bi bi-instagram"></i>
+                        <p><span class="contact-title"><a href="https://www.instagram.com/">Instagram</a></span></p>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <i class="bi bi-youtube"></i>
+                        <p><span class="contact-tile"><a href="https://www.youtube.com/">Youtube</a></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="copy-area">
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-md-12 bg-light">
+                        <P>Desenvolvido por <a href=""> MJAM</a> &copy; 2023</P>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
-</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
 </html>

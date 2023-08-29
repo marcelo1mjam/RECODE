@@ -1,0 +1,15 @@
+*{
+    text-align: justify;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    
+}
+#contact-area{
+    text-align: center;
+}
+.centro{
+    text-align: center;
+}
